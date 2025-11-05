@@ -1,9 +1,8 @@
-import readline from "readline-sync";
-
+import readlinesync = require("readline-sync");
 let numeros = new Set<number>();
 
 for (let i = 0; i < 10; i++) {
-  let num = readline.questionInt(`Digite o ${i + 1}o numero: `);
+  let num = readlinesync.questionInt(`Digite o ${i + 1}o numero: `);
   numeros.add(num);
 }
 

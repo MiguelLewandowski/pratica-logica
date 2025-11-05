@@ -1,9 +1,9 @@
-import readline from "readline-sync";
+import readlinesync = require("readline-sync");
 
 let cores: string[] = [];
 
 for (let i = 0; i < 5; i++) {
-  let cor = readline.question(`Digite a ${i + 1}a cor: `);
+  let cor = readlinesync.question(`Digite a ${i + 1}a cor: `);
   cores.push(cor);
 }
 

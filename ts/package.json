@@ -1,20 +1,21 @@
 {
-  "type": "module",
-  "dependencies": {
-    "@types/readline-sync": "^1.4.8",
-    "readline-sync": "^1.4.10"
-  },
-  "name": "pratica-logica",
+  "name": "ts",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^24.10.0",
+    "readline-sync": "^1.4.10"
+  },
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "@types/readline-sync": "^1.4.8"
   }
 }
